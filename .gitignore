@@ -1,0 +1,14 @@
+# Node.js
+node_modules/
+
+# Logs
+logs
+*.log
+
+# Editor configs
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
