@@ -41,23 +41,22 @@ Este é um projeto completo para gerenciamento de livros, utilizando uma API em 
 ### Configuração do Backend
 1. Acesse a pasta `server`.
 2. Instale as dependências:
-   npm install
+   `npm install`
 3. Crie um arquivo  na raiz do backend e insira suas credenciais MongoDB:
-  MONGO_URI=mongodb+srv://<usuario>:<senha>@cluster0.mongodb.net/?retryWrites=true&w=majority
+  `MONGO_URI=mongodb+srv://<usuario>:<senha>@cluster0.mongodb.net/?retryWrites=true&w=majority`
 4. Inicie o servidor: 
-   npm start
-5. O backend estará disponível em 'http://localhost:3000'.
+   `npm start`
+5. O backend estará disponível em `http://localhost:3000`.
 
 ### Configuração do Frontend
-1. Acesse a pasta 'front'.
+1. Acesse a pasta `front`.
 2. Instale as dependências:
-  npm install
-3. Crie um arquivo '.env' na raiz do frontend e configure o endpoint da API:
-
-  VITE_API_URL=http://localhost:3000
+  `npm install`
+3. Crie um arquivo `.env` na raiz do frontend e configure o endpoint da API:
+  `VITE_API_URL=http://localhost:3000`
 4. Inicie o frontend:
-  npm run dev
-5. O frontend estará disponível em 'http://localhost:5173'.
+  `npm run dev`
+5. O frontend estará disponível em `http://localhost:5173`.
 
 ### 📂 Estrutura do Projeto
 ## Backend
